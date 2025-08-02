@@ -1,5 +1,4 @@
 # NeuroCode-IDE
-# NeuroCode-IDE
 
 NeuroCode-IDE is an accessible, beginner-friendly Arduino programming environment designed for neurodivergent learners and coding newcomers. It introduces a simplified syntax called **NeuroCode**, which translates into standard Arduino C++ automatically.
 
