@@ -24,5 +24,6 @@ NeuroCode-IDE is an accessible, beginner-friendly Arduino programming environmen
 ### 📁 Example NeuroCode
 
 ```neurocode
-set pin 13 as output
-blink pin 13 every 1s
+turn on pin 13
+wait 1 second
+turn off pin 13
