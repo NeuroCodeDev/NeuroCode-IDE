@@ -497,8 +497,6 @@ class Program
         {
             string lowerLine = line.ToLower();
             Match match;
-
-
             if ((match = Regex.Match(lowerLine, "^say \"(.*)\"$")).Success)
                 return $"Serial.println(\"{match.Groups[1].Value.Replace("\"", "\\\"")}\");";
             if ((match = Regex.Match(lowerLine, "^turn on pin (\\d+)$")).Success)
@@ -726,7 +724,6 @@ class Program
 
     }
 
-
     public static class HelpCenter
     {
         private static readonly Dictionary<string, List<HelpEntry>> HelpCategories = new()
@@ -795,11 +792,5 @@ class Program
         }
     }
 
-
-
-
     public record HelpEntry(string Command, string Syntax, string Example);
 }
-
-
-
